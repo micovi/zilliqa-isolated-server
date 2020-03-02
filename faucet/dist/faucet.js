@@ -69,22 +69,19 @@ var registerUser = function () {
 
                     case 8:
                         callTx = _context.sent;
-
-                        console.log(callTx);
-                        // Retrieving the transaction receipt (See note 2)
                         return _context.abrupt('return', callTx.receipt);
 
-                    case 13:
-                        _context.prev = 13;
+                    case 12:
+                        _context.prev = 12;
                         _context.t0 = _context['catch'](0);
                         throw _context.t0;
 
-                    case 16:
+                    case 15:
                     case 'end':
                         return _context.stop();
                 }
             }
-        }, _callee, undefined, [[0, 13]]);
+        }, _callee, undefined, [[0, 12]]);
     }));
 
     return function registerUser(_x) {
